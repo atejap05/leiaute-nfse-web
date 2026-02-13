@@ -1,0 +1,191 @@
+{
+  "documento": "Sistema Nacional NFS-e - Documentação Técnica",
+  "versao": "v1-03-00-2013-nt007",
+  "data_conversao": "2026-02-12",
+  "arquivo_origem": "anexovi-leiautesrn_rtc_ibscbs-v1-03-00-2013-nt007.xlsx",
+  "estatisticas": {
+    "total_servicos": 328,
+    "total_cenarios_exportacao": 112,
+    "total_regras_recepcao": 16,
+    "total_campos_leiaute": 431,
+    "total_regras_validacao": 677
+  },
+  "arquivos_gerados": [
+    {
+      "arquivo": "NFSE_DOCUMENTACAO_COMPLETA.md",
+      "tipo": "markdown",
+      "descricao": "Documentação consolidada em formato narrativo",
+      "uso": "Leitura humana e contextualização para IA"
+    },
+    {
+      "arquivo": "GUIA_USO_AGENTES_IA.md",
+      "tipo": "markdown",
+      "descricao": "Guia específico para agentes de IA",
+      "uso": "Instruções de como consultar e usar os dados"
+    },
+    {
+      "arquivo": "1_servicos_incidencia.json",
+      "tipo": "json",
+      "descricao": "Lista Nacional de Serviços",
+      "registros": 328,
+      "uso": "Consultar códigos de tributação, descrições e regras de incidência"
+    },
+    {
+      "arquivo": "2_cenarios_exportacao.json",
+      "tipo": "json",
+      "descricao": "Cenários de Exportação",
+      "registros": 112,
+      "uso": "Validar situações de exportação de serviços"
+    },
+    {
+      "arquivo": "3_regras_recepcao_dps.json",
+      "tipo": "json",
+      "descricao": "Regras de Recepção DPS",
+      "registros": 16,
+      "uso": "Validar recepção de Declaração de Prestação de Serviço"
+    },
+    {
+      "arquivo": "4_leiaute_dps_nfse.json",
+      "tipo": "json",
+      "descricao": "Leiaute XML DPS/NFS-e",
+      "registros": 431,
+      "uso": "Estruturar XML e validar campos"
+    },
+    {
+      "arquivo": "5_regras_validacao_nfse.json",
+      "tipo": "json",
+      "descricao": "Regras de Validação NFS-e",
+      "registros": 677,
+      "uso": "Validar dados de negócio e aplicar regras municipais"
+    }
+  ],
+  "conceitos_principais": {
+    "DPS": "Declaração de Prestação de Serviço",
+    "NFS-e": "Nota Fiscal de Serviço Eletrônica",
+    "ISSQN": "Imposto Sobre Serviços de Qualquer Natureza",
+    "LI": "Localidade de Incidência",
+    "EP": "Estabelecimento/Domicílio do Prestador",
+    "LP": "Local da Prestação",
+    "ET": "Estabelecimento/Domicílio do Tomador",
+    "ADN": "Ambiente de Dados Nacionais",
+    "LC 116/03": "Lei Complementar 116 de 2003",
+    "NBS": "Nomenclatura Brasileira de Serviços"
+  },
+  "fluxos_principais": [
+    {
+      "nome": "Emissão de NFS-e",
+      "etapas": [
+        "1. Prestador cria DPS",
+        "2. Sistema valida estrutura XML (leiaute)",
+        "3. Sistema valida certificado digital",
+        "4. Sistema aplica regras de recepção",
+        "5. Sistema aplica regras de negócio",
+        "6. Sistema gera NFS-e",
+        "7. NFS-e é compartilhada com ADN"
+      ]
+    },
+    {
+      "nome": "Validação de Exportação",
+      "etapas": [
+        "1. Identificar localidades (tomador, intermediário, LP)",
+        "2. Identificar subitem da lista de serviços",
+        "3. Encontrar cenário correspondente",
+        "4. Verificar tributação ISSQN",
+        "5. Determinar obrigatoriedade de campos Comex",
+        "6. Validar NBS e País se obrigatório"
+      ]
+    },
+    {
+      "nome": "Classificação de Serviço",
+      "etapas": [
+        "1. Analisar descrição do serviço",
+        "2. Buscar código de tributação na lista nacional",
+        "3. Verificar regras de incidência (EP/LP/ET)",
+        "4. Identificar informações obrigatórias específicas",
+        "5. Retornar código e requisitos"
+      ]
+    }
+  ],
+  "queries_comuns": {
+    "por_codigo_servico": {
+      "arquivo": "1_servicos_incidencia.json",
+      "filtro": "codigo_tributacao == <codigo>",
+      "retorno": "Descrição, regras de incidência, informações obrigatórias"
+    },
+    "por_descricao_servico": {
+      "arquivo": "1_servicos_incidencia.json",
+      "filtro": "descricao contém <palavra-chave>",
+      "retorno": "Lista de serviços correspondentes"
+    },
+    "por_campo_xml": {
+      "arquivo": "4_leiaute_dps_nfse.json",
+      "filtro": "caminho_xml == <caminho>",
+      "retorno": "Tipo, ocorrência, tamanho, descrição"
+    },
+    "por_codigo_erro": {
+      "arquivo": "5_regras_validacao_nfse.json",
+      "filtro": "codigo_erro == <codigo>",
+      "retorno": "Regra, mensagem, aplicação, efeito"
+    },
+    "campos_obrigatorios": {
+      "arquivo": "4_leiaute_dps_nfse.json",
+      "filtro": "ocorrencia contém '1-1'",
+      "retorno": "Lista de campos obrigatórios"
+    },
+    "regras_municipais": {
+      "arquivo": "5_regras_validacao_nfse.json",
+      "filtro": "nivel_regra == '3'",
+      "retorno": "Regras específicas de municípios"
+    }
+  },
+  "casos_especiais": {
+    "aguas_maritimas": {
+      "codigo_local": "0000000",
+      "regra": "Todos os serviços EXCETO 200101 podem ser prestados em águas marítimas",
+      "incidencia": "EDP (Estabelecimento do Prestador)"
+    },
+    "importacao": {
+      "identificacao": "Emitente = T (Tomador) ou I (Intermediário) + País Exterior",
+      "regra": "Incidência do ISSQN prevalece sobre Art 3º da LC 116/03",
+      "local_incidencia": "EDEmit (Estabelecimento do Emitente)"
+    },
+    "decisao_judicial": {
+      "codigo_status": "102",
+      "descricao": "NFS-e emitida sob condições de decisão judicial ou administrativa",
+      "validacoes": "Algumas regras não são executadas"
+    }
+  },
+  "referencias_rapidas": {
+    "niveis_regras": {
+      "1": "Consistência do leiaute NFS-e",
+      "2": "Regras gerais para todos os municípios",
+      "3": "Regras específicas da legislação municipal"
+    },
+    "tipos_dados": {
+      "C": "Caracter (texto)",
+      "N": "Numérico",
+      "D": "Data",
+      "H": "Hora",
+      "A": "Atributo XML",
+      "G": "Grupo de elementos",
+      "E": "Elemento XML"
+    },
+    "ocorrencias": {
+      "1-1": "Obrigatório (exatamente 1 vez)",
+      "0-1": "Opcional (0 ou 1 vez)",
+      "1-N": "Obrigatório (1 ou mais vezes)",
+      "0-N": "Opcional (0 ou mais vezes)"
+    },
+    "efeitos": {
+      "Rej.": "Rejeição",
+      "Aviso": "Apenas aviso, não impede processamento"
+    }
+  },
+  "formato_conversao": {
+    "metodologia": "Extração automatizada do Excel para JSON e Markdown",
+    "preservacao_dados": "100% dos dados estruturados preservados",
+    "encoding": "UTF-8 para compatibilidade universal",
+    "validacao": "Estruturas JSON validadas e testadas",
+    "acessibilidade": "Formato otimizado para agentes de IA e processamento automatizado"
+  }
+}

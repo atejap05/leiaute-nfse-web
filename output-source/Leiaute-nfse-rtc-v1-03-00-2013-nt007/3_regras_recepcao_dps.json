@@ -1,0 +1,151 @@
+{
+  "titulo": "Regras de Negócio para Recepção de DPS",
+  "descricao": "Validações aplicadas na recepção de Declaração de Prestação de Serviço",
+  "total_regras": 16,
+  "regras": [
+    {
+      "numero": 1,
+      "descricao": "Validação do Certificado de Transmissão",
+      "aplicacao": "-",
+      "efeito": "-",
+      "codigo_erro": "-",
+      "mensagem_erro": "-",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 2,
+      "descricao": "Certificado de Transmissor Inválido:\n- Certificado de Transmissor inexistente na mensagem\n- Versão difere \"3\"\n- Se informado o Basic Constraint deve ser true (não pode ser Certificado de AC)\n- KeyUsage não define \"Autenticação Cliente\"",
+      "aplicacao": "Obrig.",
+      "efeito": "Rej.",
+      "codigo_erro": "E1200",
+      "mensagem_erro": "Certificado de Transmissão Inválido",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 3,
+      "descricao": "Validade do Certificado (data início e data fim)",
+      "aplicacao": "Obrig.",
+      "efeito": "Rej.",
+      "codigo_erro": "E1203",
+      "mensagem_erro": "Certificado de Transmissão expirado",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 4,
+      "descricao": "Verifica a Cadeia de Certificação:\n- Certificado da AC emissora não cadastrado na RFB\n- Certificado de AC revogado\n- Certificado não assinado pela AC emissora do Certificado",
+      "aplicacao": "Obrig.",
+      "efeito": "Rej.",
+      "codigo_erro": "E1205",
+      "mensagem_erro": "Certificado de Transmissão - Erro Cadeira de Certificação",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 5,
+      "descricao": "LCR do Certificado de Transmissor\n- Falta o endereço da LCR (CRL DistributionPoint)\n- LCR indisponível\n- LCR inválida",
+      "aplicacao": "Obrig.",
+      "efeito": "Rej.",
+      "codigo_erro": "E1206",
+      "mensagem_erro": "Certificado de Transmissão - Erro de acesso a LCR",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 6,
+      "descricao": "Certificado do Transmissor revogado",
+      "aplicacao": "Obrig.",
+      "efeito": "Rej.",
+      "codigo_erro": "E1207",
+      "mensagem_erro": "Certificado de Transmissão revogado",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 7,
+      "descricao": "Certificado Raiz difere da \"ICP-Brasil\"",
+      "aplicacao": "Obrig.",
+      "efeito": "Rej.",
+      "codigo_erro": "E1208",
+      "mensagem_erro": "Certificado de Transmissão difere da ICP - Brasil",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 8,
+      "descricao": "Falta a extensão de CNPJ ou CPF no Certificado (OtherName - OID=2.16.76.1.3.3)",
+      "aplicacao": "Obrig.",
+      "efeito": "Rej.",
+      "codigo_erro": "E1209",
+      "mensagem_erro": "Certificado de Transmissão sem CNPJ ou CPF.",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 9,
+      "descricao": "Validação da Área de Dados",
+      "aplicacao": "-",
+      "efeito": "-",
+      "codigo_erro": "-",
+      "mensagem_erro": "-",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 10,
+      "descricao": "Falha na descompactado da base 64.",
+      "aplicacao": "Obrig.",
+      "efeito": "Rej.",
+      "codigo_erro": "E1225",
+      "mensagem_erro": "Falha na decodificação da base 64 da área de dados",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 11,
+      "descricao": "Estrutura descompactada mal formada.",
+      "aplicacao": "Obrig.",
+      "efeito": "Rej.",
+      "codigo_erro": "E1226",
+      "mensagem_erro": "Estrutura descompactada mal formada.",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 12,
+      "descricao": "Validação dos Tipos de Documentos",
+      "aplicacao": "-",
+      "efeito": "-",
+      "codigo_erro": "-",
+      "mensagem_erro": "-",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 13,
+      "descricao": "Validar os tipos de DF-e tratados pelo Sistema Nacional NFS-e.",
+      "aplicacao": "Obrig.",
+      "efeito": "Rej.",
+      "codigo_erro": "E1242",
+      "mensagem_erro": "Tipo DF-e não tratado pelo Sistema Nacional NFS-e.",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 14,
+      "descricao": "Uso de prefixo de namespace não permitido na área de dados descompactada.",
+      "aplicacao": "Obrig.",
+      "efeito": "Rej.",
+      "codigo_erro": "E1228",
+      "mensagem_erro": "Uso de prefixo de namespace não permitido na área de dados descompactada.",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 15,
+      "descricao": "XML não está utilizando codificação UTF8.",
+      "aplicacao": "Obrig.",
+      "efeito": "Rej.",
+      "codigo_erro": "E1229",
+      "mensagem_erro": "XML não está utilizando codificação UTF8.",
+      "notas_explicativas": "-"
+    },
+    {
+      "numero": 16,
+      "descricao": "Falha no esquema XML do DF-e.",
+      "aplicacao": "Obrig.",
+      "efeito": "Rej.",
+      "codigo_erro": "E1235",
+      "mensagem_erro": "Falha no esquema XML do DF-e.",
+      "notas_explicativas": "-"
+    }
+  ]
+}

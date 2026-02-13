@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Schema de Validação - Arquivos NFS-e",
+  "description": "Valida se os arquivos JSON gerados seguem o padrão estabelecido",
+  
+  "definitions": {
+    "master_index": {
+      "type": "object",
+      "required": ["documento", "versao", "data_conversao", "arquivo_origem", "estatisticas", "arquivos_gerados"],
+      "properties": {
+        "documento": {
+          "type": "string",
+          "const": "Sistema Nacional NFS-e - Documentação Técnica"
+        },
+        "versao": { "type": "string" },
+        "data_conversao": { "type": "string", "format": "date-time" },
+        "arquivo_origem": { "type": "string" },
+        "estatisticas": {
+          "type": "object",
+          "required": ["total_servicos", "total_cenarios_exportacao", "total_regras_recepcao", "total_campos_leiaute", "total_regras_validacao"],
+          "properties": {
+            "total_servicos": { "type": "integer", "minimum": 0 },
+            "total_cenarios_exportacao": { "type": "integer", "minimum": 0 },
+            "total_regras_recepcao": { "type": "integer", "minimum": 0 },
+            "total_campos_leiaute": { "type": "integer", "minimum": 0 },
+            "total_regras_validacao": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "arquivos_gerados": {
+          "type": "array",
+          "minItems": 5
+        }
+      }
+    },
+    
+    "servicos_incidencia": {
+      "type": "object",
+      "required": ["titulo", "versao", "descricao", "total_servicos", "servicos"],
+      "properties": {
+        "titulo": { "type": "string" },
+        "versao": { "type": "string" },
+        "descricao": { "type": "string" },
+        "total_servicos": { "type": "integer", "minimum": 0 },
+        "servicos": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["codigo_tributacao", "descricao", "localidade_incidencia", "grupos_informacao"],
+            "properties": {
+              "codigo_tributacao": { "type": "integer" },
+              "descricao": { "type": "string" },
+              "localidade_incidencia": {
+                "type": "object",
+                "required": ["estabelecimento_prestador", "local_prestacao", "estabelecimento_tomador", "estabelecimento_emitente"],
+                "properties": {
+                  "estabelecimento_prestador": { "type": ["string", "null"], "enum": ["X", null] },
+                  "local_prestacao": { "type": ["string", "null"], "enum": ["X", null] },
+                  "estabelecimento_tomador": { "type": ["string", "null"], "enum": ["X", null] },
+                  "estabelecimento_emitente": { "type": ["string", "null"], "enum": ["X", null] }
+                }
+              },
+              "grupos_informacao": {
+                "type": "object",
+                "required": ["obrigatorio", "info_complementares"],
+                "properties": {
+                  "obrigatorio": { "type": ["string", "null"], "enum": ["X", "-", null] },
+                  "info_complementares": { "type": ["string", "null"], "enum": ["X", "-", null] }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    
+    "cenarios_exportacao": {
+      "type": "object",
+      "required": ["titulo", "versao", "descricao", "total_cenarios", "cenarios"],
+      "properties": {
+        "titulo": { "type": "string" },
+        "versao": { "type": "string" },
+        "descricao": { "type": "string" },
+        "total_cenarios": { "type": "integer", "minimum": 0 },
+        "cenarios": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["cenario", "locais", "tributacao", "exportacao", "validacao", "info_comex"]
+          }
+        }
+      }
+    },
+    
+    "regras_recepcao": {
+      "type": "object",
+      "required": ["titulo", "versao", "descricao", "total_regras", "regras"],
+      "properties": {
+        "titulo": { "type": "string" },
+        "versao": { "type": "string" },
+        "descricao": { "type": "string" },
+        "total_regras": { "type": "integer", "minimum": 0 },
+        "regras": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["numero", "descricao"]
+          }
+        }
+      }
+    },
+    
+    "leiaute": {
+      "type": "object",
+      "required": ["titulo", "versao", "descricao", "total_campos", "campos"],
+      "properties": {
+        "titulo": { "type": "string" },
+        "versao": { "type": "string" },
+        "descricao": { "type": "string" },
+        "total_campos": { "type": "integer", "minimum": 0 },
+        "campos": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["numero", "caminho_xml", "campo"]
+          }
+        }
+      }
+    },
+    
+    "regras_validacao": {
+      "type": "object",
+      "required": ["titulo", "versao", "descricao", "total_regras", "regras"],
+      "properties": {
+        "titulo": { "type": "string" },
+        "versao": { "type": "string" },
+        "descricao": { "type": "string" },
+        "total_regras": { "type": "integer", "minimum": 0 },
+        "regras": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["numero"]
+          }
+        }
+      }
+    }
+  }
+}

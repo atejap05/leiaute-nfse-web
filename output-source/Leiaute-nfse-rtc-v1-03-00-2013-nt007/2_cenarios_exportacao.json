@@ -1,0 +1,3031 @@
+{
+  "titulo": "Cenários de Exportação para Emissão de NFS-e",
+  "descricao": "Comportamento do sistema para validação de itens declarados pelo emitente",
+  "total_cenarios": 112,
+  "cenarios": [
+    {
+      "cenario": 1,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "NÃO",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "Opcional"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "NÃO",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 2,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "NÃO",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "SIM",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 3,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "NÃO",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 4,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "NÃO",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do EP",
+        "local_incidencia_real": "Opcional"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "NÃO",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 5,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "NÃO",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "Opcional"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "NÃO",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 6,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "NÃO",
+        "rfb": "MENSAGEM ERRO 1"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 7,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "NÃO",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 8,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "NÃO",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do ET",
+        "local_incidencia_real": "Opcional"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "NÃO",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 9,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "NÃO",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "Opcional"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "NÃO",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 10,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "NÃO",
+        "rfb": "MENSAGEM ERRO 1"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 11,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "NÃO",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 12,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "NÃO",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do LP",
+        "local_incidencia_real": "Opcional"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "NÃO",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 13,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "99.01.01",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "NÃO",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "Opcional"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "NÃO",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 14,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "Qq.Serv.Param.Mun.Incid.",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "NÃO",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "Opcional"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "NÃO",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 15,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 16,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 17,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 18,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do EP",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 19,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 20,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 21,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 22,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do ET",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 23,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 24,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 25,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 26,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 2"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 27,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "99.01.01",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 28,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "Qq.Serv.Param.Mun.Incid.",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 29,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 30,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "SIM",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 31,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 32,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do EP",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 33,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "-",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 34,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 1"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 35,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 36,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do ET",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 37,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "-",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 38,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 1"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 39,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 40,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do LP",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 41,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "99.01.01",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 42,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "Qq.Serv.Param.Mun.Incid.",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 43,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 44,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 45,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 46,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do EP",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 47,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 48,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 49,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 50,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do ET",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 51,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 52,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 53,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 54,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 2"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 55,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "99.01.01",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 56,
+      "locais": {
+        "endereco_tomador": "Brasil",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "Param.Mun.Incid.",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 57,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 58,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "SIM",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 59,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 60,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do EP",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 61,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 62,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "SIM",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 63,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 64,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM AVISO 1"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do LP",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 65,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 66,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 1"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 67,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 68,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do LP",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "SIM",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 69,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "99.01.01",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 70,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "Qq.Serv.Param.Mun.Incid.",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 71,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 72,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "SIM",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 73,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 74,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do EP",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 75,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 76,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "SIM",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 77,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 78,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM AVISO 1"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do LP",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 79,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 80,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 1"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 81,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 82,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "NÃO"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do LP",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 83,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "99.01.01",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 84,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Brasil"
+      },
+      "subitem_lista": "Qq.Serv.Param.Mun.Incid.",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 85,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 86,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 87,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 88,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do EP",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 89,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 90,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 91,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 92,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 2"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 93,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 94,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 95,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 96,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 2"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 97,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "99.01.01",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 98,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "Qq.Serv.Param.Mun.Incid.",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 99,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 100,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 101,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 102,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "EP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "Município do EP",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 103,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 104,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 105,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 106,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "ET",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 2"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 107,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Imunidade",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 108,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Exportação de Serviço",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 109,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 3"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 110,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "LP",
+      "local_incidencia_teorico": "Não",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Operação Tributável",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "MENSAGEM ERRO 2"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "X",
+        "local_incidencia_real": "X"
+      },
+      "info_comex": {
+        "nbs": "X",
+        "pais_resultado": "X",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 111,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Ext",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "99.01.01",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "SIM"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    },
+    {
+      "cenario": 112,
+      "locais": {
+        "endereco_tomador": "Ext",
+        "endereco_intermediario": "Brasil",
+        "local_prestacao": "Ext"
+      },
+      "subitem_lista": "Qq.Serv.Param.Mun.Incid.",
+      "local_incidencia_teorico": "Sim",
+      "tributacao": {
+        "imunidade_exportacao_nao_incidencia": "Não Incidência",
+        "tributacao_issqn": "-"
+      },
+      "exportacao": {
+        "issqn": "SIM",
+        "rfb": "-"
+      },
+      "validacao": {
+        "mensagem_erro_aviso": "-",
+        "local_incidencia_real": "SIM"
+      },
+      "info_comex": {
+        "nbs": "NÃO",
+        "pais_resultado": "SIM",
+        "grupo_comex": null
+      }
+    }
+  ]
+}

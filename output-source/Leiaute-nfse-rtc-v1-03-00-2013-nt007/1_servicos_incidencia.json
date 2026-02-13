@@ -1,0 +1,4599 @@
+{
+  "titulo": "Lista Nacional de Serviços - Incidência e Informações",
+  "descricao": "Determinação da localidade de incidência (LI) de acordo com a LC 116/03",
+  "total_servicos": 328,
+  "servicos": [
+    {
+      "codigo_tributacao": 10101,
+      "descricao": "Análise e desenvolvimento de sistemas.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 10201,
+      "descricao": "Programação.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 10301,
+      "descricao": "Processamento de dados, textos, imagens, vídeos, páginas eletrônicas, aplicativos e sistemas de informação, entre outros formatos, e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 10302,
+      "descricao": "Armazenamento ou hospedagem de dados, textos, imagens, vídeos, páginas eletrônicas, aplicativos e sistemas de informação, entre outros formatos, e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 10401,
+      "descricao": "Elaboração de programas de computadores, inclusive de jogos eletrônicos, independentemente da arquitetura construtiva da máquina em que o programa será executado, incluindo tablets, smartphones e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 10501,
+      "descricao": "Licenciamento ou cessão de direito de uso de programas de computação.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 10601,
+      "descricao": "Assessoria e consultoria em informática.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 10701,
+      "descricao": "Suporte técnico em informática, inclusive instalação, configuração e manutenção de programas de computação e bancos de dados.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 10801,
+      "descricao": "Planejamento, confecção, manutenção e atualização de páginas eletrônicas.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 10901,
+      "descricao": "Disponibilização, sem cessão definitiva, de conteúdos de áudio por meio da internet (exceto a distribuição de conteúdos pelas prestadoras de Serviço de Acesso Condicionado, de que trata a Lei nº 12.485, de 12 de setembro de 2011, sujeita ao ICMS).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 10902,
+      "descricao": "Disponibilização, sem cessão definitiva, de conteúdos de vídeo, imagem e texto por meio da internet, respeitada a imunidade de livros, jornais e periódicos (exceto a distribuição de conteúdos pelas prestadoras de Serviço de Acesso Condicionado, de que trata a Lei nº 12.485, de 12 de setembro de 2011, sujeita ao ICMS).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 20101,
+      "descricao": "Serviços de pesquisas e desenvolvimento de qualquer natureza.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 30201,
+      "descricao": "Cessão de direito de uso de marcas e de sinais de propaganda.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 30301,
+      "descricao": "Exploração de salões de festas, centro de convenções, stands e congêneres, para realização de eventos ou negócios de qualquer natureza.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 30302,
+      "descricao": "Exploração de escritórios virtuais e congêneres, para realização de eventos ou negócios de qualquer natureza.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 30303,
+      "descricao": "Exploração de quadras esportivas, estádios, ginásios, canchas e congêneres, para realização de eventos ou negócios de qualquer natureza.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 30304,
+      "descricao": "Exploração de auditórios, casas de espetáculos e congêneres, para realização de eventos ou negócios de qualquer natureza.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 30305,
+      "descricao": "Exploração de parques de diversões e congêneres, para realização de eventos ou negócios de qualquer natureza.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 30401,
+      "descricao": "Locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não, de ferrovia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 30402,
+      "descricao": "Locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não, de rodovia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 30403,
+      "descricao": "Locação, sublocação, arrendamento, direito de passagem ou permissão de uso, compartilhado ou não, de postes, cabos, dutos e condutos de qualquer natureza.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 30501,
+      "descricao": "Cessão de andaimes, palcos, coberturas e outras estruturas de uso temporário.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40101,
+      "descricao": "Medicina.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40102,
+      "descricao": "Biomedicina.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40201,
+      "descricao": "Análises clínicas e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40202,
+      "descricao": "Patologia e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40203,
+      "descricao": "Eletricidade médica (eletroestimulação de nervos e musculos, cardioversão, etc) e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40204,
+      "descricao": "Radioterapia, quimioterapia e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40205,
+      "descricao": "Ultra-sonografia, ressonância magnética, radiologia, tomografia e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40301,
+      "descricao": "Hospitais e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40302,
+      "descricao": "Laboratórios e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40303,
+      "descricao": "Clínicas, sanatórios, manicômios, casas de saúde, prontos-socorros, ambulatórios e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40401,
+      "descricao": "Instrumentação cirúrgica.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40501,
+      "descricao": "Acupuntura.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40601,
+      "descricao": "Enfermagem, inclusive serviços auxiliares.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40701,
+      "descricao": "Serviços farmacêuticos.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40801,
+      "descricao": "Terapia ocupacional.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40802,
+      "descricao": "Fisioterapia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40803,
+      "descricao": "Fonoaudiologia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 40901,
+      "descricao": "Terapias de qualquer espécie destinadas ao tratamento físico, orgânico e mental.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 41001,
+      "descricao": "Nutrição.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 41101,
+      "descricao": "Obstetrícia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 41201,
+      "descricao": "Odontologia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 41301,
+      "descricao": "Ortóptica.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 41401,
+      "descricao": "Próteses sob encomenda.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 41501,
+      "descricao": "Psicanálise.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 41601,
+      "descricao": "Psicologia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 41701,
+      "descricao": "Casas de repouso e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 41702,
+      "descricao": "Casas de recuperação e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 41703,
+      "descricao": "Creches e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 41704,
+      "descricao": "Asilos e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 41801,
+      "descricao": "Inseminação artificial, fertilização in vitro e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 41901,
+      "descricao": "Bancos de sangue, leite, pele, olhos, óvulos, sêmen e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 42001,
+      "descricao": "Coleta de sangue, leite, tecidos, sêmen, órgãos e materiais biológicos de qualquer espécie.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 42101,
+      "descricao": "Unidade de atendimento, assistência ou tratamento móvel e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 42201,
+      "descricao": "Planos de medicina de grupo ou individual e convênios para prestação de assistência médica, hospitalar, odontológica e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 42301,
+      "descricao": "Outros planos de saúde que se cumpram através de serviços de terceiros contratados, credenciados, cooperados ou apenas pagos pelo operador do plano mediante indicação do beneficiário.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 50101,
+      "descricao": "Medicina veterinária",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 50102,
+      "descricao": "Zootecnia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 50201,
+      "descricao": "Hospitais e congêneres, na área veterinária.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 50202,
+      "descricao": "Clínicas, ambulatórios, prontos-socorros e congêneres, na área veterinária.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 50301,
+      "descricao": "Laboratórios de análise na área veterinária.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 50401,
+      "descricao": "Inseminação artificial, fertilização in vitro e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 50501,
+      "descricao": "Bancos de sangue e de órgãos e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 50601,
+      "descricao": "Coleta de sangue, leite, tecidos, sêmen, órgãos e materiais biológicos de qualquer espécie.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 50701,
+      "descricao": "Unidade de atendimento, assistência ou tratamento móvel e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 50801,
+      "descricao": "Guarda, tratamento, amestramento, embelezamento, alojamento e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 50901,
+      "descricao": "Planos de atendimento e assistência médico-veterinária.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 60101,
+      "descricao": "Barbearia, cabeleireiros, manicuros, pedicuros e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 60201,
+      "descricao": "Esteticistas, tratamento de pele, depilação e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 60301,
+      "descricao": "Banhos, duchas, sauna, massagens e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 60401,
+      "descricao": "Ginástica, dança, esportes, natação, artes marciais e demais atividades físicas.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 60501,
+      "descricao": "Centros de emagrecimento, spa e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 60601,
+      "descricao": "Aplicação de tatuagens, piercings e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70101,
+      "descricao": "Engenharia e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70102,
+      "descricao": "Agronomia e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70103,
+      "descricao": "Agrimensura e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70104,
+      "descricao": "Arquitetura, urbanismo e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70105,
+      "descricao": "Geologia e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70106,
+      "descricao": "Paisagismo e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70201,
+      "descricao": "Execução, por administração, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70202,
+      "descricao": "Execução, por empreitada ou subempreitada, de obras de construção civil, hidráulica ou elétrica e de outras obras semelhantes, inclusive sondagem, perfuração de poços, escavação, drenagem e irrigação, terraplanagem, pavimentação, concretagem e a instalação e montagem de produtos, peças e equipamentos (exceto o fornecimento de mercadorias produzidas pelo prestador de serviços fora do local da prestação dos serviços, que fica sujeito ao ICMS).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70301,
+      "descricao": "Elaboração de planos diretores, estudos de viabilidade, estudos organizacionais e outros, relacionados com obras e serviços de engenharia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70302,
+      "descricao": "Elaboração de anteprojetos, projetos básicos e projetos executivos para trabalhos de engenharia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70401,
+      "descricao": "Demolição.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70501,
+      "descricao": "Reparação, conservação e reforma de edifícios e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços, fora do local da prestação dos serviços, que fica sujeito ao ICMS).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70502,
+      "descricao": "Reparação, conservação e reforma de estradas, pontes, portos e congêneres (exceto o fornecimento de mercadorias produzidas pelo prestador dos serviços, fora do local da prestação dos serviços, que fica sujeito ao ICMS).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70601,
+      "descricao": "Colocação e instalação de tapetes, carpetes, cortinas e congêneres, com material fornecido pelo tomador do serviço.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70602,
+      "descricao": "Colocação e instalação de assoalhos, revestimentos de parede, vidros, divisórias, placas de gesso e congêneres, com material fornecido pelo tomador do serviço.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70701,
+      "descricao": "Recuperação, raspagem, polimento e lustração de pisos e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70801,
+      "descricao": "Calafetação.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70901,
+      "descricao": "Varrição, coleta e remoção de lixo, rejeitos e outros resíduos quaisquer.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 70902,
+      "descricao": "Incineração, tratamento, reciclagem, separação e destinação final de lixo, rejeitos e outros resíduos quaisquer.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 71001,
+      "descricao": "Limpeza, manutenção e conservação de vias e logradouros públicos, parques, jardins e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 71002,
+      "descricao": "Limpeza, manutenção e conservação de imóveis, chaminés, piscinas e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 71101,
+      "descricao": "Decoração.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 71102,
+      "descricao": "Jardinagem, inclusive corte e poda de árvores.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 71201,
+      "descricao": "Controle e tratamento de efluentes de qualquer natureza e de agentes físicos, químicos e biológicos.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 71301,
+      "descricao": "Dedetização, desinfecção, desinsetização, imunização, higienização, desratização, pulverização e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 71601,
+      "descricao": "Florestamento, reflorestamento, semeadura, adubação, reparação de solo, plantio, silagem, colheita, corte e descascamento de árvores, silvicultura, exploração florestal e dos serviços congêneres indissociáveis da formação, manutenção e colheita de florestas, para quaisquer fins e por quaisquer meios.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 71701,
+      "descricao": "Escoramento, contenção de encostas e serviços congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 71801,
+      "descricao": "Limpeza e dragagem de rios, portos, canais, baías, lagos, lagoas, represas, açudes e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 71901,
+      "descricao": "Acompanhamento e fiscalização da execução de obras de engenharia, arquitetura e urbanismo.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 72001,
+      "descricao": "Aerofotogrametria (inclusive interpretação), cartografia, mapeamento e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 72002,
+      "descricao": "Levantamentos batimétricos, geográficos, geodésicos, geológicos, geofísicos e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 72003,
+      "descricao": "Levantamentos topográficos e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 72101,
+      "descricao": "Pesquisa, perfuração, cimentação, mergulho, perfilagem, concretação, testemunhagem, pescaria, estimulação e outros serviços relacionados com a exploração e explotação de petróleo, gás natural e de outros recursos minerais.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 72201,
+      "descricao": "Nucleação e bombardeamento de nuvens e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 80101,
+      "descricao": "Ensino regular pré-escolar, fundamental e médio.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 80102,
+      "descricao": "Ensino regular superior.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 80201,
+      "descricao": "Instrução, treinamento, orientação pedagógica e educacional, avaliação de conhecimentos de qualquer natureza.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 90101,
+      "descricao": "Hospedagem em hotéis, hotelaria marítima e congêneres (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 90102,
+      "descricao": "Hospedagem em pensões, albergues, pousadas, hospedarias, ocupação por temporada com fornecimento de serviços e congêneres (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 90103,
+      "descricao": "Hospedagem em motéis e congêneres (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 90104,
+      "descricao": "Hospedagem em apart-service condominiais, flat, apart-hotéis, hotéis residência, residence-service, suite service e congêneres (o valor da alimentação e gorjeta, quando incluído no preço da diária, fica sujeito ao Imposto Sobre Serviços).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 90201,
+      "descricao": "Agenciamento e intermediação de programas de turismo, passeios, viagens, excursões, hospedagens e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 90202,
+      "descricao": "Organização, promoção e execução de programas de turismo, passeios, viagens, excursões, hospedagens e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 90301,
+      "descricao": "Guias de turismo.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100101,
+      "descricao": "Agenciamento, corretagem ou intermediação de câmbio.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100102,
+      "descricao": "Agenciamento, corretagem ou intermediação de seguros.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100103,
+      "descricao": "Agenciamento, corretagem ou intermediação de cartões de crédito.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100104,
+      "descricao": "Agenciamento, corretagem ou intermediação de planos de saúde.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100105,
+      "descricao": "Agenciamento, corretagem ou intermediação de planos de previdência privada.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100201,
+      "descricao": "Agenciamento, corretagem ou intermediação de títulos em geral e valores mobiliários.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100202,
+      "descricao": "Agenciamento, corretagem ou intermediação de contratos quaisquer.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100301,
+      "descricao": "Agenciamento, corretagem ou intermediação de direitos de propriedade industrial, artística ou literária.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100401,
+      "descricao": "Agenciamento, corretagem ou intermediação de contratos de arrendamento mercantil (leasing).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100402,
+      "descricao": "Agenciamento, corretagem ou intermediação de contratos de franquia (franchising).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100403,
+      "descricao": "Agenciamento, corretagem ou intermediação de faturização (factoring).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100501,
+      "descricao": "Agenciamento, corretagem ou intermediação de bens móveis ou imóveis, não abrangidos em outros itens ou subitens, por quaisquer meios.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100502,
+      "descricao": "Agenciamento, corretagem ou intermediação de bens móveis ou imóveis realizados no âmbito de Bolsas de Mercadorias e Futuros, por quaisquer meios.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100601,
+      "descricao": "Agenciamento marítimo.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100701,
+      "descricao": "Agenciamento de notícias.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100801,
+      "descricao": "Agenciamento de publicidade e propaganda, inclusive o agenciamento de veiculação por quaisquer meios.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 100901,
+      "descricao": "Representação de qualquer natureza, inclusive comercial.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 101001,
+      "descricao": "Distribuição de bens de terceiros.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 110101,
+      "descricao": "Guarda e estacionamento de veículos terrestres automotores.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 110102,
+      "descricao": "Guarda e estacionamento de aeronaves e de embarcações.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 110201,
+      "descricao": "Vigilância, segurança ou monitoramento de bens, pessoas e semoventes.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 110301,
+      "descricao": "Escolta, inclusive de veículos e cargas.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 110401,
+      "descricao": "Armazenamento, depósito, guarda de bens de qualquer espécie.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 110402,
+      "descricao": "Carga, descarga, arrumação de bens de qualquer espécie.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 110501,
+      "descricao": "Serviços relacionados ao monitoramento e rastreamento a distância, em qualquer via ou local, de veículos, cargas, pessoas e semoventes em circulação ou movimento, realizados por meio de telefonia móvel, transmissão de satélites, rádio ou qualquer outro meio, inclusive pelas empresas de Tecnologia da Informação Veicular, independentemente de o prestador de serviços ser proprietário ou não da infraestrutura de telecomunicações que utiliza.  ",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 120101,
+      "descricao": "Espetáculos teatrais.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 120201,
+      "descricao": "Exibições cinematográficas.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 120301,
+      "descricao": "Espetáculos circenses.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 120401,
+      "descricao": "Programas de auditório.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 120501,
+      "descricao": "Parques de diversões, centros de lazer e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 120601,
+      "descricao": "Boates, taxi-dancing e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 120701,
+      "descricao": "Shows, ballet, danças, desfiles, bailes, óperas, concertos, recitais, festivais e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 120801,
+      "descricao": "Feiras, exposições, congressos e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 120901,
+      "descricao": "Bilhares.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 120902,
+      "descricao": "Boliches.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 120903,
+      "descricao": "Diversões eletrônicas ou não.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 121001,
+      "descricao": "Corridas e competições de animais.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 121101,
+      "descricao": "Competições esportivas ou de destreza física ou intelectual, com ou sem a participação do espectador.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 121201,
+      "descricao": "Execução de música.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 121301,
+      "descricao": "Produção, mediante ou sem encomenda prévia, de eventos, espetáculos, entrevistas, shows, ballet, danças, desfiles, bailes, teatros, óperas, concertos, recitais, festivais e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 121401,
+      "descricao": "Fornecimento de música para ambientes fechados ou não, mediante transmissão por qualquer processo.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 121501,
+      "descricao": "Desfiles de blocos carnavalescos ou folclóricos, trios elétricos e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 121601,
+      "descricao": "Exibição de filmes, entrevistas, musicais, espetáculos, shows, concertos, desfiles, óperas, competições esportivas, de destreza intelectual ou congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 121701,
+      "descricao": "Recreação e animação, inclusive em festas e eventos de qualquer natureza.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 140101,
+      "descricao": "Lubrificação, limpeza, lustração, revisão, carga e recarga, conserto, restauração, blindagem, manutenção e conservação de máquinas, veículos, aparelhos, equipamentos, motores, elevadores ou de qualquer objeto (exceto peças e partes empregadas, que ficam sujeitas ao ICMS).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 140201,
+      "descricao": "Assistência técnica.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 140301,
+      "descricao": "Recondicionamento de motores (exceto peças e partes empregadas, que ficam sujeitas ao ICMS).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 140401,
+      "descricao": "Recauchutagem ou regeneração de pneus.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 140501,
+      "descricao": "Restauração, recondicionamento, acondicionamento, pintura, beneficiamento, lavagem, secagem, tingimento, galvanoplastia, anodização, corte, recorte, plastificação, costura, acabamento, polimento e congêneres de objetos quaisquer.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 140601,
+      "descricao": "Instalação e montagem de aparelhos, máquinas e equipamentos, inclusive montagem industrial, prestados ao usuário final, exclusivamente com material por ele fornecido.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 140701,
+      "descricao": "Colocação de molduras e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 140801,
+      "descricao": "Encadernação, gravação e douração de livros, revistas e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 140901,
+      "descricao": "Alfaiataria e costura, quando o material for fornecido pelo usuário final, exceto aviamento.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 141001,
+      "descricao": "Tinturaria e lavanderia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 141101,
+      "descricao": "Tapeçaria e reforma de estofamentos em geral.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 141201,
+      "descricao": "Funilaria e lanternagem.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 141301,
+      "descricao": "Carpintaria.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 141302,
+      "descricao": "Serralheria.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 141401,
+      "descricao": "Guincho intramunicipal.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 141402,
+      "descricao": "Guindaste e içamento.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 141403,
+      "descricao": "Guincho intramunicipal em construção civil.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 141404,
+      "descricao": "Guindaste e içamento em construção civil.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": null,
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150101,
+      "descricao": "Administração de fundos quaisquer e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150102,
+      "descricao": "Administração de consórcio e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150103,
+      "descricao": "Administração de cartão de crédito ou débito e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150104,
+      "descricao": "Administração de carteira de clientes e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150105,
+      "descricao": "Administração de cheques pré-datados e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150201,
+      "descricao": "Abertura de conta-corrente no País, bem como a manutenção da referida conta ativa e inativa.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150202,
+      "descricao": "Abertura de conta-corrente no exterior, bem como a manutenção da referida conta ativa e inativa.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150203,
+      "descricao": "Abertura de conta de investimentos e aplicação no País, bem como a manutenção da referida conta ativa e inativa.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150204,
+      "descricao": "Abertura de conta de investimentos e aplicação no exterior, bem como a manutenção da referida conta ativa e inativa.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150205,
+      "descricao": "Abertura de caderneta de poupança no País, bem como a manutenção da referida conta ativa e inativa.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150206,
+      "descricao": "Abertura de caderneta de poupança no exterior, bem como a manutenção da referida conta ativa e inativa.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150207,
+      "descricao": "Abertura de contas em geral no País, não abrangida em outro subitem, bem como a manutenção das referidas contas ativas e inativas.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150208,
+      "descricao": "Abertura de contas em geral no exterior, não abrangida em outro subitem, bem como a manutenção das referidas contas ativas e inativas.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150301,
+      "descricao": "Locação de cofres particulares.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150302,
+      "descricao": "Manutenção de cofres particulares.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150303,
+      "descricao": "Locação de terminais eletrônicos.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150304,
+      "descricao": "Manutenção de terminais eletrônicos.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150305,
+      "descricao": "Locação de terminais de atendimento.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150306,
+      "descricao": "Manutenção de terminais de atendimento.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150307,
+      "descricao": "Locação de bens e equipamentos em geral.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150308,
+      "descricao": "Manutenção de bens e equipamentos em geral.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150401,
+      "descricao": "Fornecimento ou emissão de atestados em geral, inclusive atestado de idoneidade, atestado de capacidade financeira e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150501,
+      "descricao": "Cadastro, elaboração de ficha cadastral, renovação cadastral e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150502,
+      "descricao": "Inclusão no Cadastro de Emitentes de Cheques sem Fundos - CCF.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150503,
+      "descricao": "Exclusão no Cadastro de Emitentes de Cheques sem Fundos - CCF.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150504,
+      "descricao": "Inclusão em quaisquer outros bancos cadastrais.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150505,
+      "descricao": "Exclusão em quaisquer outros bancos cadastrais.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150601,
+      "descricao": "Emissão, reemissão e fornecimento de avisos, comprovantes e documentos em geral",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150602,
+      "descricao": "Abono de firmas.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150603,
+      "descricao": "Coleta e entrega de documentos, bens e valores.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150604,
+      "descricao": "Comunicação com outra agência ou com a administração central.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150605,
+      "descricao": "Licenciamento eletrônico de veículos.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150606,
+      "descricao": "Transferência de veículos.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150607,
+      "descricao": "Agenciamento fiduciário ou depositário.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150608,
+      "descricao": "Devolução de bens em custódia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150701,
+      "descricao": "Acesso, movimentação, atendimento e consulta a contas em geral, por qualquer meio ou processo, inclusive por telefone, fac-símile, internet e telex.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150702,
+      "descricao": "Acesso a terminais de atendimento, inclusive vinte e quatro horas.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150703,
+      "descricao": "Acesso a outro banco e à rede compartilhada.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150704,
+      "descricao": "Fornecimento de saldo, extrato e demais informações relativas a contas em geral, por qualquer meio ou processo.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150801,
+      "descricao": "Emissão, reemissão, alteração, cessão, substituição, cancelamento e registro de contrato de crédito.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150802,
+      "descricao": "Estudo, análise e avaliação de operações de crédito.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150803,
+      "descricao": "Emissão, concessão, alteração ou contratação de aval, fiança, anuência e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150804,
+      "descricao": "Serviços relativos à abertura de crédito, para quaisquer fins.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 150901,
+      "descricao": "Arrendamento mercantil (leasing) de quaisquer bens, inclusive cessão de direitos e obrigações, substituição de garantia, alteração, cancelamento e registro de contrato, e demais serviços relacionados ao arrendamento mercantil (leasing).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151001,
+      "descricao": "Serviços relacionados a cobranças em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151002,
+      "descricao": "Serviços relacionados a recebimentos em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151003,
+      "descricao": "Serviços relacionados a pagamentos em geral, de títulos quaisquer, de contas ou carnês, de câmbio, de tributos e por conta de terceiros, inclusive os efetuados por meio eletrônico, automático ou por máquinas de atendimento.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151004,
+      "descricao": "Serviços relacionados a fornecimento de posição de cobrança, recebimento ou pagamento.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151005,
+      "descricao": "Serviços relacionados a emissão de carnês, fichas de compensação, impressos e documentos em geral.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151101,
+      "descricao": "Devolução de títulos, protesto de títulos, sustação de protesto, manutenção de títulos, reapresentação de títulos, e demais serviços a eles relacionados.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151201,
+      "descricao": "Custódia em geral, inclusive de títulos e valores mobiliários.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151301,
+      "descricao": "Serviços relacionados a operações de câmbio em geral, edição, alteração, prorrogação, cancelamento e baixa de contrato de câmbio.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151302,
+      "descricao": "Serviços relacionados a emissão de registro de exportação ou de crédito.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151303,
+      "descricao": "Serviços relacionados a cobrança ou depósito no exterior.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151304,
+      "descricao": "Serviços relacionados a emissão, fornecimento e cancelamento de cheques de viagem.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151305,
+      "descricao": "Serviços relacionados a fornecimento, transferência, cancelamento e demais serviços relativos a carta de crédito de importação, exportação e garantias recebidas.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151306,
+      "descricao": "Serviços relacionados a envio e recebimento de mensagens em geral relacionadas a operações de câmbio.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151401,
+      "descricao": "Fornecimento, emissão, reemissão de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151402,
+      "descricao": "Renovação de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151403,
+      "descricao": "Manutenção de cartão magnético, cartão de crédito, cartão de débito, cartão salário e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151501,
+      "descricao": "Compensação de cheques e títulos quaisquer.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151502,
+      "descricao": "Serviços relacionados a depósito, inclusive depósito identificado, a saque de contas quaisquer, por qualquer meio ou processo, inclusive em terminais eletrônicos e de atendimento.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151601,
+      "descricao": "Emissão, reemissão, liquidação, alteração, cancelamento e baixa de ordens de pagamento, ordens de crédito e similares, por qualquer meio ou processo.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151602,
+      "descricao": "Serviços relacionados à transferência de valores, dados, fundos, pagamentos e similares, inclusive entre contas em geral.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151701,
+      "descricao": "Emissão e fornecimento de cheques quaisquer, avulso ou por talão.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151702,
+      "descricao": "Devolução de cheques quaisquer, avulso ou por talão.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151703,
+      "descricao": "Sustação, cancelamento e oposição de cheques quaisquer, avulso ou por talão.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151801,
+      "descricao": "Serviços relacionados a crédito imobiliário, de avaliação e vistoria de imóvel ou obra.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151802,
+      "descricao": "Serviços relacionados a crédito imobiliário, de análise técnica e jurídica.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151803,
+      "descricao": "Serviços relacionados a crédito imobiliário, de emissão, reemissão, alteração, transferência e renegociação de contrato.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151804,
+      "descricao": "Serviços relacionados a crédito imobiliário, de emissão e reemissão do termo de quitação.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 151805,
+      "descricao": "Demais serviços relacionados a crédito imobiliário.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170101,
+      "descricao": "Assessoria ou consultoria de qualquer natureza, não contida em outros itens desta lista.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170102,
+      "descricao": "Análise, exame, pesquisa, coleta, compilação e fornecimento de dados e informações de qualquer natureza, inclusive cadastro e similares.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170201,
+      "descricao": "Datilografia, digitação, estenografia e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170202,
+      "descricao": "Expediente, secretaria em geral, apoio e infra-estrutura administrativa e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170203,
+      "descricao": "Resposta audível e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170204,
+      "descricao": "Redação, edição, revisão e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170205,
+      "descricao": "Interpretação, tradução e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170301,
+      "descricao": "Planejamento, coordenação, programação ou organização técnica.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170302,
+      "descricao": "Planejamento, coordenação, programação ou organização financeira.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170303,
+      "descricao": "Planejamento, coordenação, programação ou organização administrativa.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170401,
+      "descricao": "Recrutamento, agenciamento, seleção e colocação de mão-de-obra.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170501,
+      "descricao": "Fornecimento de mão-de-obra, mesmo em caráter temporário, inclusive de empregados ou trabalhadores, avulsos ou temporários, contratados pelo prestador de serviço.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": null,
+        "estabelecimento_tomador": "X",
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170601,
+      "descricao": "Propaganda e publicidade, inclusive promoção de vendas, planejamento de campanhas ou sistemas de publicidade, elaboração de desenhos, textos e demais materiais publicitários.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170801,
+      "descricao": "Franquia (franchising).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 170901,
+      "descricao": "Perícias, laudos, exames técnicos e análises técnicas.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 171001,
+      "descricao": "Planejamento, organização e administração de feiras, exposições, e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 171002,
+      "descricao": "Planejamento, organização e administração de congressos e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 171101,
+      "descricao": "Organização de festas e recepções.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 171102,
+      "descricao": "Bufê (exceto o fornecimento de alimentação e bebidas, que fica sujeito ao ICMS).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 171201,
+      "descricao": "Administração em geral, inclusive de bens e negócios de terceiros.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 171301,
+      "descricao": "Leilão e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 171401,
+      "descricao": "Advocacia",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 171501,
+      "descricao": "Arbitragem de qualquer espécie, inclusive jurídica.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 171601,
+      "descricao": "Auditoria.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 171701,
+      "descricao": "Análise de Organização e Métodos.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 171801,
+      "descricao": "Atuária e cálculos técnicos de qualquer natureza.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 171901,
+      "descricao": "Contabilidade, inclusive serviços técnicos e auxiliares.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 172001,
+      "descricao": "Consultoria e assessoria econômica ou financeira.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 172101,
+      "descricao": "Estatística.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 172201,
+      "descricao": "Cobrança em geral.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 172301,
+      "descricao": "Assessoria, análise, avaliação, atendimento, consulta, cadastro, seleção, gerenciamento de informações, administração de contas a receber ou a pagar e em geral, relacionados a operações de faturização (factoring).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 172401,
+      "descricao": "Apresentação de palestras, conferências, seminários e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 172501,
+      "descricao": "Inserção de textos, desenhos e outros materiais de propaganda e publicidade, em qualquer meio (exceto em livros, jornais, periódicos e nas modalidades de serviços de radiodifusão sonora e de sons e imagens de recepção livre e gratuita).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 180101,
+      "descricao": "Serviços de regulação de sinistros vinculados a contratos de seguros e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 180102,
+      "descricao": "Serviços de inspeção e avaliação de riscos para cobertura de contratos de seguros e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 180103,
+      "descricao": "Serviços de prevenção e gerência de riscos seguráveis e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 190101,
+      "descricao": "Serviços de distribuição e venda de bilhetes e demais produtos de loteria, cartões, pules ou cupons de apostas, sorteios, prêmios, inclusive os decorrentes de títulos de capitalização e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 190102,
+      "descricao": "Serviços de distribuição e venda de bingos e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 200101,
+      "descricao": "Serviços portuários, ferroportuários, utilização de porto, movimentação de passageiros, reboque de embarcações, rebocador escoteiro, atracação, desatracação, serviços de praticagem, capatazia, armazenagem de qualquer natureza, serviços acessórios, movimentação de mercadorias, serviços de apoio marítimo, de movimentação ao largo, serviços de armadores, estiva, conferência, logística e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 200201,
+      "descricao": "Serviços aeroportuários, utilização de aeroporto, movimentação de passageiros, armazenagem de qualquer natureza, capatazia, movimentação de aeronaves, serviços de apoio aeroportuários, serviços acessórios, movimentação de mercadorias, logística e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 200301,
+      "descricao": "Serviços de terminais rodoviários, ferroviários, metroviários, movimentação de passageiros, mercadorias, inclusive suas operações, logística e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 210101,
+      "descricao": "Serviços de registros públicos, cartorários e notariais.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 220101,
+      "descricao": "Serviços de exploração de rodovia mediante cobrança de preço ou pedágio dos usuários, envolvendo execução de serviços de conservação, manutenção, melhoramentos para adequação de capacidade e segurança de trânsito, operação, monitoração, assistência aos usuários e outros serviços definidos em contratos, atos de concessão ou de permissão ou em normas oficiais.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": "X",
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 230101,
+      "descricao": "Serviços de programação e comunicação visual e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 230102,
+      "descricao": "Serviços de desenho industrial e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 240101,
+      "descricao": "Serviços de chaveiros, confecção de carimbos e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 240102,
+      "descricao": "Serviços de placas, sinalização visual, banners, adesivos e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 250101,
+      "descricao": "Funerais, inclusive fornecimento de caixão, urna ou esquifes; aluguel de capela; transporte do corpo cadavérico; fornecimento de flores, coroas e outros paramentos; desembaraço de certidão de óbito; fornecimento de véu, essa e outros adornos; embalsamento, embelezamento, conservação ou restauração de cadáveres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 250201,
+      "descricao": "Translado intramunicipal de corpos e partes de corpos cadavéricos.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 250202,
+      "descricao": "Cremação de corpos e partes de corpos cadavéricos.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 250301,
+      "descricao": "Planos ou convênio funerários.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 250401,
+      "descricao": "Manutenção e conservação de jazigos e cemitérios.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 250501,
+      "descricao": "Cessão de uso de espaços em cemitérios para sepultamento.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 260101,
+      "descricao": "Serviços de coleta, remessa ou entrega de correspondências, documentos, objetos, bens ou valores, inclusive pelos correios e suas agências franqueadas.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 260102,
+      "descricao": "Serviços de courrier e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 270101,
+      "descricao": "Serviços de assistência social.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 280101,
+      "descricao": "Serviços de avaliação de bens e serviços de qualquer natureza.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 290101,
+      "descricao": "Serviços de biblioteconomia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 300101,
+      "descricao": "Serviços de biologia e biotecnologia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 300102,
+      "descricao": "Serviços de química.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 310101,
+      "descricao": "Serviços técnicos em edificações e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 310102,
+      "descricao": "Serviços técnicos em eletrônica, eletrotécnica e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 310103,
+      "descricao": "Serviços técnicos em mecânica e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 310104,
+      "descricao": "Serviços técnicos em telecomunicações e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 320101,
+      "descricao": "Serviços de desenhos técnicos.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 330101,
+      "descricao": "Serviços de desembaraço aduaneiro, comissários, despachantes e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 340101,
+      "descricao": "Serviços de investigações particulares, detetives e congêneres.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 350101,
+      "descricao": "Serviços de reportagem e jornalismo.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 350102,
+      "descricao": "Serviços de assessoria de imprensa.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 350103,
+      "descricao": "Serviços de relações públicas.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 360101,
+      "descricao": "Serviços de meteorologia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 370101,
+      "descricao": "Serviços de artistas, atletas, modelos e manequins.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 380101,
+      "descricao": "Serviços de museologia.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 390101,
+      "descricao": "Serviços de ourivesaria e lapidação (quando o material for fornecido pelo tomador do serviço).",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 400101,
+      "descricao": "Obras de arte sob encomenda.",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": "X",
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": "X"
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    },
+    {
+      "codigo_tributacao": 990101,
+      "descricao": "Serviços sem a incidência de ISSQN e ICMS",
+      "localidade_incidencia": {
+        "estabelecimento_prestador": null,
+        "local_prestacao": null,
+        "estabelecimento_tomador": null,
+        "estabelecimento_emitente": null
+      },
+      "grupos_informacao": {
+        "obrigatorio": "-",
+        "info_complementares": "X"
+      }
+    }
+  ]
+}
