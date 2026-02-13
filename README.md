@@ -16,6 +16,257 @@ Este é um projeto **full-stack** com duas aplicações coordenadas:
    - 4 páginas principais para busca e visualização
    - Integrado com API via proxy
 
+---
+
+## 💡 Ideia, Objetivos & Lógica de Funcionamento
+
+### 🎯 O Problema Que Resolvemos
+
+O leiaute NFSe (Nota Fiscal de Serviço Eletrônica) é uma estrutura complexa definida pela RFB/SEFAZ com:
+
+- **328 serviços** diferentes (classificações fiscais)
+- **677 regras de validação** em 3 níveis (básico, intermediário, avançado)
+- **112 cenários de exportação** (combinações de localidades e contextos)
+- **431 campos** na estrutura XML
+
+Essa complexidade torna difícil para desenvolvedores, contadores e auditores:
+
+- 🔍 Encontrar quais regras se aplicam a um serviço específico
+- 📋 Validar se um XML de NFSe segue todas as regras obrigatórias
+- 🔄 Comparar diferentes cenários e suas diferenças
+- 📊 Entender a estrutura completa do leiaute
+
+### 🚀 Solução: Portal Web Interativo
+
+Criamos um **portal de busca e consulta em tempo real** que:
+
+1. **Centraliza os dados** - Todos os 328 serviços, 677 regras e 112 cenários em um único banco de dados SQLite
+2. **Facilita a busca** - Procure por código de serviço, número de regra, código de erro
+3. **Visualiza relacionamentos** - Veja quais regras se aplicam a cada serviço
+4. **Filtra por nível** - Regras básicas (nível 1), intermediárias (nível 2) ou avançadas (nível 3)
+5. **Compara cenários** - Entenda diferenças entre contextos de exportação
+
+### 🎓 Objetivos Centrais
+
+| Objetivo                     | Como Alcança                                                  |
+| ---------------------------- | ------------------------------------------------------------- |
+| **Democratizar acesso**      | Interface amigável sem necessidade de expertise técnica       |
+| **Acelerar desenvolvimento** | Busca rápida de regras economiza horas de pesquisa            |
+| **Reduzir erros**            | Validação visual de regras garante conformidade NFSe          |
+| **Documentar mudanças**      | Quando novos leiautes forem lançados, integração simplificada |
+| **Ser agnóstico**            | Backend agnóstico - funciona em qualquer linguagem            |
+
+### 🔄 Lógica de Funcionamento Atual
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                      FLUXO COMPLETO                         │
+└─────────────────────────────────────────────────────────────┘
+
+1️⃣ CAMADA DE DADOS (Estática)
+   ├─ output-source/
+   │  └─ Leiaute-nfse-rtc-v1-03-00-2013-nt007/
+   │     ├─ 0_MASTER_INDEX.json          (Metadados)
+   │     ├─ 1_servicos_incidencia.json   (328 serviços)
+   │     ├─ 2_cenarios_exportacao.json   (112 cenários)
+   │     ├─ 4_leiaute_dps_nfse.json      (431 campos XML)
+   │     └─ 5_regras_validacao_nfse.json (677 regras)
+   │
+   └─ 🔄 TRANSFORMAÇÃO (Python)
+      └─ scripts/import_json_to_db.py
+         ├─ Lê todos os JSONs
+         ├─ Normaliza estrutura
+         ├─ Trata valores NULL
+         └─ Insere em 6 tabelas SQLite
+
+2️⃣ CAMADA DE ARMAZENAMENTO (Banco de Dados)
+   │
+   └─ nfse_leiaute.db (SQLite)
+      ├─ servicos (328 registros)
+      │  └─ Campos: numero_servico, nome, codigo_tributacao, etc
+      │
+      ├─ regras (677 registros)
+      │  └─ Campos: numero_regra, campo, regra_negocio, codigo_erro, nivel
+      │
+      ├─ cenarios (112 registros)
+      │  └─ Campos: nome, descricao, contexto
+      │
+      ├─ campos_layout (431 registros)
+      │  └─ Campos: caminho_xml, elemento_xml, obrigatorio
+      │
+      ├─ restricoes (0 registros - dados futuros)
+      │  └─ Relaciona campos com regras
+      │
+      └─ master_index (1 registro)
+         └─ Metadados: versão, data, source
+
+3️⃣ CAMADA DE API (Backend FastAPI)
+   │
+   ├─ GET /api/services
+   │  └─ Retorna lista de 328 serviços com paginação
+   │
+   ├─ GET /api/services/{id}
+   │  └─ Detalhes de um serviço + regras aplicáveis
+   │
+   ├─ GET /api/rules
+   │  └─ Lista de 677 regras com filtros (nivel, codigo_erro, campo)
+   │
+   ├─ GET /api/rules/filtro/por-nivel/{nivel}
+   │  └─ Apenas regras do nível especificado (1, 2 ou 3)
+   │
+   ├─ GET /api/cenarios
+   │  └─ Lista de 112 cenários de exportação
+   │
+   └─ GET /api/search?q=termo
+      └─ Busca full-text em serviços, regras e cenários
+
+4️⃣ CAMADA DE APRESENTAÇÃO (Frontend React)
+   │
+   ├─ 🔍 Página de Busca (Search)
+   │  ├─ Campo de entrada com autocomplete
+   │  ├─ Resultados combinados (serviços + regras + cenários)
+   │  └─ Link direto para detalhes
+   │
+   ├─ 📊 Página de Serviços (Services)
+   │  ├─ Tabela com 328 serviços
+   │  ├─ Filtros por código ou nome
+   │  ├─ Paginação (10/20/50 itens)
+   │  └─ Click para ver todas as regras do serviço
+   │
+   ├─ ⚖️ Página de Regras (Rules)
+   │  ├─ Tabela com 677 regras
+   │  ├─ Filtros por nível (1, 2, 3)
+   │  ├─ Filtros por código de erro
+   │  ├─ Busca em campos específicos
+   │  └─ Destaque de severo (nível 1 = crítico)
+   │
+   └─ 📋 Página de Cenários (Scenarios)
+      ├─ Comparação lado-a-lado
+      ├─ Diferenças destacadas
+      └─ Export para análise
+
+┌─────────────────────────────────────────────────────────────┐
+│                    FLUXO DO USUÁRIO                         │
+└─────────────────────────────────────────────────────────────┘
+
+User (Dev/Contador) abre: http://localhost:5173
+            ↓
+Vê página de busca com histórico
+            ↓
+Digita: "10101" (código de serviço)
+            ↓
+Frontend faz: GET /api/search?q=10101
+            ↓
+Backend busca em:
+  • servicos (numero_servico LIKE '10101')
+  • regras (campo LIKE '10101')
+  • cenarios (nome LIKE '10101')
+            ↓
+Retorna resultados em JSON
+            ↓
+Frontend renderiza:
+  ✅ 1 Serviço encontrado
+  ✅ 23 Regras que mencionam este código
+  ✅ 5 Cenários relevantes
+            ↓
+User clica em: "Serviço 10101"
+            ↓
+Frontend navega para: /services/10101
+            ↓
+GET /api/services/10101
+           ↓
+Backend retorna:
+{
+  "numero_servico": 10101,
+  "nome_servico": "Análise de Sistemas",
+  "codigo_tributacao": "01.04",
+  "regras_aplicaveis": [
+    { "numero_regra": 5, "campo": null, ...},
+    { "numero_regra": 23, "campo": "descricao_servico", ...},
+    ...
+  ]
+}
+            ↓
+Frontend renderiza:
+  • Informações do serviço em cards
+  • Lista de 23 regras com filtros por nível
+  • Link para cada regra individual
+            ↓
+User clica em: "Regra 5"
+            ↓
+Frontend navega para: /rules/5
+            ↓
+GET /api/rules/5
+           ↓
+Backend retorna regra completa com contexto
+            ↓
+Frontend renderiza:
+  • Número da regra
+  • Campo afetado (se houver)
+  • Mensagem de erro
+  • Nível de severidade
+  • Serviços que usam esta regra
+  • Cenários relevantes
+            ↓
+User entende: "Regra 5 se aplica a 128 serviços"
+            ↓
+Pode filtra para ver só as regras de nível 1 (críticas)
+```
+
+### 🔌 Integração com Ecosistema Existente
+
+O projeto se integra com:
+
+```
+rotinas/
+├─ converter_nfse.py      ← Lê Excel do RFB
+│  └─ Gera output-source/.../*.json (dados brutos)
+│
+└─ validar_nfse.py        ← Valida XMLs contra regras
+   └─ FUTURO: Usar API deste portal para validação
+```
+
+### 📈 Escabilidade & Extensibilidade
+
+O design permite:
+
+- ✅ **Agregar novos leiautes** - Apenas rodar import num novo diretório
+- ✅ **Adicionar campos** - Editar JSONs → import automático
+- ✅ **Múltiplos usuários** - API stateless, escalável horizontalmente
+- ✅ **Cache inteligente** - Dados estáticos, perfeitos para Redis
+- ✅ **Mobile-first** - Frontend é SPA responsiva, funciona em qualquer dispositivo
+
+### 🎯 Use Cases Principais
+
+```
+1. DESENVOLVEDOR criando integração NFSe
+   → Procura "imposto_retido" no portal
+   → Vê quais serviços e regras envolvem este campo
+   → Cria validações de forma rápida
+
+2. CONTADOR auditando XMLs de NFSe
+   → Verifica se um XML segue todas as 677 regras
+   → Filtra por nível para priorizar críticos
+   → Gera relatório de conformidade
+
+3. GESTOR DE SISTEMA (TI da empresa)
+   → Quer entender estrutura completa do leiaute
+   → Busca por tipos de erro mais comuns
+   → Planeja melhorias no sistema de NF
+
+4. GERENTE DE PROJETO
+   → Estimando esforço para nova integração
+   → Vê quantas regras cada serviço tem
+   → Calcula complexidade de desenvolimento
+
+5. AUDITOR RFB/SEFAZ
+   → Validando conformidade de sistemas
+   → Consultando especificação técnica
+   → Gerando evidências de aderência
+```
+
+---
+
 ## 🚀 Quick Start (5 minutos)
 
 ### Pré-requisitos
