@@ -52,7 +52,7 @@ Ter servidor FastAPI 100% funcional e testado
 
 - [ ] Acessar Swagger UI
   - URL: `http://localhost:8000/docs`
-  - **Sucesso:** Página Swagger abre e lista 21 endpoints
+  - **Sucesso:** Página Swagger abre e lista 17 endpoints HTTP (15 em `/api` + `/health` + `/`)
 
 - [ ] Testar health endpoint
   ```bash
@@ -248,7 +248,7 @@ if __name__ == "__main__":
 
 ```bash
 # Em http://localhost:8000/docs:
-# - Verificar todos 21 endpoints listados
+# - Verificar todos os 17 endpoints HTTP listados
 # - Clicar em "Try it out" em 3 endpoints
 # - Validar responses
 ```
@@ -261,7 +261,7 @@ if __name__ == "__main__":
 | ------------------------- | -------- | ----- |
 | **Server startup time**   | < 2s     | ?     |
 | **Test coverage**         | > 80%    | ?     |
-| **API endpoints working** | 21/21    | ?     |
+| **API endpoints working** | 15/15    | ?     |
 | **Database integrity**    | 100%     | ✅    |
 | **Documentation**         | Complete | ?     |
 

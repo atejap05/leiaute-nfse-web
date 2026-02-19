@@ -44,6 +44,7 @@ export interface Cenario {
 export interface SearchResult {
   tipo: string;
   match_score: number;
+  dados?: Record<string, any>;
   [key: string]: any;
 }
 
@@ -225,7 +226,25 @@ class APIClient {
         limit,
       },
     });
-    return response.data;
+    const raw = response.data ?? {};
+    const resultados: SearchResult[] = Array.isArray(raw.resultados)
+      ? raw.resultados
+      : Array.isArray(raw.items)
+        ? raw.items
+        : [];
+
+    const items = resultados.map((r) => {
+      const dados = r?.dados && typeof r.dados === "object" ? r.dados : {};
+      // Compatibilidade com UI atual: mantém campos em raiz e preserva "dados"
+      return { ...dados, ...r, dados };
+    });
+
+    return {
+      query: raw.query ?? q,
+      filtro_tipo: raw.filtro_tipo ?? null,
+      total_resultados: raw.total_resultados ?? items.length,
+      items,
+    };
   }
 
   async searchByServiceCode(

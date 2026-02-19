@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { Search as SearchIcon, Loader, AlertCircle } from 'lucide-react'
-import api, { SearchResult, Servico } from '@/services/api'
+import api, { SearchResult } from '@/services/api'
 
 export default function SearchPage() {
   const [query, setQuery] = useState('')
