@@ -2,12 +2,12 @@ from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 from typing import Optional
 from app.database import get_db
-from app.models import ServicoORM, RegraORM, CampoLayoutORM, SearchResult
+from app.models import ServicoORM, RegraORM, CampoLayoutORM, SearchResult, SearchResponse
 
 router = APIRouter(prefix="/api/search", tags=["search"])
 
 
-@router.get("", response_model=dict)
+@router.get("", response_model=SearchResponse)
 def search(
     q: str = Query(..., min_length=2, max_length=255),
     tipo: Optional[str] = Query(None, description="Filtro por tipo: servico, regra, campo"),
@@ -57,7 +57,7 @@ def search(
         
         for r in regras:
             # Score mais alto se encontra no código de erro
-            if r.codigo_erro.contains(q):
+            if r.codigo_erro and q in r.codigo_erro:
                 score = 1.0
             elif q.isdigit() and r.numero_regra == int(q):
                 score = 1.0
@@ -81,7 +81,7 @@ def search(
             (CampoLayoutORM.descricao.ilike(f"%{q}%")) |
             (CampoLayoutORM.nome_campo.ilike(f"%{q}%")) |
             (CampoLayoutORM.elemento_xml.ilike(f"%{q}%")) |
-            (CampoLayoutORM.número_campo == int(q) if q.isdigit() else False)
+            (CampoLayoutORM.numero_campo == int(q) if q.isdigit() else False)
         ).limit(limit).all()
         
         for c in campos:
@@ -100,12 +100,21 @@ def search(
     resultados.sort(key=lambda x: x["match_score"], reverse=True)
     resultados = resultados[:limit]
     
-    return {
-        "query": q,
-        "filtro_tipo": tipo,
-        "total_resultados": len(resultados),
-        "items": resultados
-    }
+    # Converter para SearchResult objects
+    items_search = [
+        SearchResult(
+            tipo=r["tipo"],
+            match_score=r["match_score"],
+            dados={k: v for k, v in r.items() if k not in ["tipo", "match_score"]}
+        )
+        for r in resultados
+    ]
+    
+    return SearchResponse(
+        query=q,
+        total_resultados=len(items_search),
+        resultados=items_search
+    )
 
 
 @router.get("/codigo/{codigo}", response_model=dict)

@@ -2,12 +2,12 @@ from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from typing import Optional, List
 from app.database import get_db
-from app.models import CenarioORM, CenarioResponse
+from app.models import CenarioORM, CenarioResponse, PaginatedCenarios, ScenarioComparison, DomesticScenariosResponse, ExportScenariosResponse
 
 router = APIRouter(prefix="/api/scenarios", tags=["scenarios"])
 
 
-@router.get("", response_model=dict)
+@router.get("", response_model=PaginatedCenarios)
 def list_scenarios(
     limit: int = Query(10, gt=0, le=100),
     offset: int = Query(0, ge=0),
@@ -34,16 +34,16 @@ def list_scenarios(
     total = query.count()
     cenarios = query.offset(offset).limit(limit).all()
     
-    return {
-        "total": total,
-        "limit": limit,
-        "offset": offset,
-        "filtros_aplicados": {
+    return PaginatedCenarios(
+        total=total,
+        limit=limit,
+        offset=offset,
+        filtros_aplicados={
             "endereco_tomador": endereco_tomador,
             "local_prestacao": local_prestacao
         },
-        "items": [CenarioResponse.model_validate(c) for c in cenarios]
-    }
+        items=[CenarioResponse.model_validate(c) for c in cenarios]
+    )
 
 
 @router.get("/{numero}", response_model=CenarioResponse)
@@ -63,7 +63,7 @@ def get_scenario_detail(numero: int, db: Session = Depends(get_db)):
     return CenarioResponse.model_validate(cenario)
 
 
-@router.post("/compare", response_model=dict)
+@router.post("/compare", response_model=ScenarioComparison)
 def compare_scenarios(
     cenarios_ids: List[int] = Query(..., min_items=2, max_items=5),
     db: Session = Depends(get_db)
@@ -82,11 +82,14 @@ def compare_scenarios(
     if len(cenarios) < len(cenarios_ids):
         raise HTTPException(status_code=404, detail="Um ou mais cenários não encontrados")
     
-    return {
-        "cenarios_comparados": len(cenarios),
-        "cenarios": [CenarioResponse.model_validate(c) for c in cenarios],
-        "diferencas": _extract_differences(cenarios)
-    }
+    diferencas = _extract_differences(cenarios)
+    
+    return ScenarioComparison(
+        cenarios_comparados=cenarios_ids,
+        total_campos=6,
+        diferencas_encontradas=len(diferencas),
+        valores_encontrados=diferencas
+    )
 
 
 def _extract_differences(cenarios: List[CenarioORM]) -> dict:
@@ -114,16 +117,17 @@ def _extract_differences(cenarios: List[CenarioORM]) -> dict:
         
         if len(valores) > 1:
             campos_diferentes[campo] = {
-                "valoes_encontrados": list(valores),
+                "valores_encontrados": list(valores),
                 "diferem": True
             }
     
     return campos_diferentes
 
 
-@router.get("/filtro/brasil-brasil", response_model=dict)
+@router.get("/filtro/brasil-brasil", response_model=DomesticScenariosResponse)
 def get_domestic_scenarios(
     limit: int = Query(10, gt=0, le=100),
+    offset: int = Query(0, ge=0),
     db: Session = Depends(get_db)
 ):
     """
@@ -132,18 +136,25 @@ def get_domestic_scenarios(
     cenarios = db.query(CenarioORM).filter(
         CenarioORM.endereco_tomador == "Brasil",
         CenarioORM.local_prestacao == "Brasil"
-    ).limit(limit).all()
+    ).offset(offset).limit(limit).all()
     
-    return {
-        "cenarios_encontrados": len(cenarios),
-        "descricao": "Prestador e tomador no Brasil",
-        "items": [CenarioResponse.model_validate(c) for c in cenarios]
-    }
+    total = db.query(CenarioORM).filter(
+        CenarioORM.endereco_tomador == "Brasil",
+        CenarioORM.local_prestacao == "Brasil"
+    ).count()
+    
+    return DomesticScenariosResponse(
+        total=total,
+        limit=limit,
+        offset=offset,
+        items=[CenarioResponse.model_validate(c) for c in cenarios]
+    )
 
 
-@router.get("/filtro/exportacao", response_model=dict)
+@router.get("/filtro/exportacao", response_model=ExportScenariosResponse)
 def get_export_scenarios(
     limit: int = Query(10, gt=0, le=100),
+    offset: int = Query(0, ge=0),
     db: Session = Depends(get_db)
 ):
     """
@@ -152,10 +163,16 @@ def get_export_scenarios(
     cenarios = db.query(CenarioORM).filter(
         (CenarioORM.endereco_tomador == "Exterior") |
         (CenarioORM.local_prestacao == "Exterior")
-    ).limit(limit).all()
+    ).offset(offset).limit(limit).all()
     
-    return {
-        "cenarios_encontrados": len(cenarios),
-        "descricao": "Cenários com prestador ou tomador no exterior (exportação)",
-        "items": [CenarioResponse.model_validate(c) for c in cenarios]
-    }
+    total = db.query(CenarioORM).filter(
+        (CenarioORM.endereco_tomador == "Exterior") |
+        (CenarioORM.local_prestacao == "Exterior")
+    ).count()
+    
+    return ExportScenariosResponse(
+        total=total,
+        limit=limit,
+        offset=offset,
+        items=[CenarioResponse.model_validate(c) for c in cenarios]
+    )

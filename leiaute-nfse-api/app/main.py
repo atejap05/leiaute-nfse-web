@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 from app.config import get_settings
 from app.database import init_db
-from app.routers import servicos, regras, cenarios, busca
+from app.routers import servicos, regras, cenarios, busca, health
 
 # ============================================================================
 # Inicialização
@@ -45,12 +45,25 @@ app = FastAPI(
 # CORS (Para permitir requisições do React)
 # ============================================================================
 
+# Parse allowed origins
+if settings.allowed_origins == "*" or settings.debug:
+    cors_origins = ["*"]
+else:
+    # Split por vírgula se houver múltiplos domínios
+    cors_origins = [origin.strip() for origin in settings.allowed_origins.split(",")]
+
+# Parse allowed methods
+cors_methods = [method.strip() for method in settings.allowed_methods.split(",")]
+
+# Parse allowed headers
+cors_headers = [header.strip() for header in settings.allowed_headers.split(",")]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"] if settings.debug else ["https://yourdomain.com"],
+    allow_origins=cors_origins,
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=cors_methods,
+    allow_headers=cors_headers,
 )
 
 
@@ -58,42 +71,11 @@ app.add_middleware(
 # Routers
 # ============================================================================
 
+app.include_router(health.router)
 app.include_router(servicos.router)
 app.include_router(regras.router)
 app.include_router(cenarios.router)
 app.include_router(busca.router)
-
-
-# ============================================================================
-# Health Check
-# ============================================================================
-
-@app.get("/health")
-def health_check():
-    """Health check endpoint"""
-    return {
-        "status": "ok",
-        "version": settings.api_version,
-        "api_title": settings.api_title
-    }
-
-
-@app.get("/")
-def root():
-    """Root endpoint com informações da API"""
-    return {
-        "titulo": settings.api_title,
-        "descricao": settings.api_description,
-        "versao": settings.api_version,
-        "endpoints": {
-            "docs": "/docs",
-            "healthcheck": "/health",
-            "servicos": "/api/services",
-            "regras": "/api/rules",
-            "cenarios": "/api/scenarios",
-            "busca": "/api/search"
-        }
-    }
 
 
 if __name__ == "__main__":

@@ -209,7 +209,7 @@ class RegraBase(BaseModel):
     regra_negocio: Optional[str] = None
     codigo_erro: Optional[str] = None
     mensagem_erro: Optional[str] = None
-    nivel_regra: Optional[int] = None
+    nivel_regra: Optional[str | int] = None  # Pode ser "-", número ou None
     contexto: Optional[str] = None
     exemplay: Optional[str] = None
 
@@ -355,6 +355,85 @@ class SearchResponse(BaseModel):
     query: str
     total_resultados: int
     resultados: List[SearchResult]
+
+
+# ============================================================================
+# Modelos Paginados Específicos para Endpoints
+# ============================================================================
+
+class PaginatedServicos(BaseModel):
+    """Response paginado de serviços"""
+    total: int
+    limit: int
+    offset: int
+    items: List[ServicoResponse]
+
+
+class PaginatedRegras(BaseModel):
+    """Response paginado de regras"""
+    total: int
+    limit: int
+    offset: int
+    filtros_aplicados: Optional[dict] = None
+    items: List[RegraResponse]
+
+
+class FilteredRulesResponse(BaseModel):
+    """Response para regras filtradas por nível"""
+    nivel: int
+    total: int
+    limit: int
+    offset: int
+    items: List[RegraResponse]
+
+
+class FilteredRulesByErrorResponse(BaseModel):
+    """Response para regras filtradas por código de erro"""
+    codigo_erro: str
+    total: int
+    limit: int
+    offset: int
+    items: List[RegraResponse]
+
+
+class PaginatedCenarios(BaseModel):
+    """Response paginado de cenários"""
+    total: int
+    limit: int
+    offset: int
+    filtros_aplicados: Optional[dict] = None
+    items: List[CenarioResponse]
+
+
+class ScenarioComparison(BaseModel):
+    """Response de comparação entre cenários"""
+    cenarios_comparados: List[int]
+    total_campos: int
+    diferencas_encontradas: int
+    valores_encontrados: dict
+
+
+class DomesticScenariosResponse(BaseModel):
+    """Response para cenários Brasil-Brasil"""
+    total: int
+    limit: int
+    offset: int
+    items: List[CenarioResponse]
+
+
+class ExportScenariosResponse(BaseModel):
+    """Response para cenários de exportação"""
+    total: int
+    limit: int
+    offset: int
+    items: List[CenarioResponse]
+
+
+class ServiceRulesResponse(BaseModel):
+    """Response de regras de um serviço"""
+    codigo_servico: int
+    total_regras: int
+    regras: List[RegraResponse]
 
 
 # Rebuild models that use forward references

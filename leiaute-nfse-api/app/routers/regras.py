@@ -2,12 +2,12 @@ from fastapi import APIRouter, Depends, HTTPException, Query, Path
 from sqlalchemy.orm import Session
 from typing import Optional, List
 from app.database import get_db
-from app.models import RegraORM, RegraResponse
+from app.models import RegraORM, RegraResponse, PaginatedRegras, FilteredRulesResponse, FilteredRulesByErrorResponse
 
 router = APIRouter(prefix="/api/rules", tags=["rules"])
 
 
-@router.get("", response_model=dict)
+@router.get("", response_model=PaginatedRegras)
 def list_rules(
     limit: int = Query(10, gt=0, le=100),
     offset: int = Query(0, ge=0),
@@ -39,17 +39,17 @@ def list_rules(
     total = query.count()
     regras = query.offset(offset).limit(limit).all()
     
-    return {
-        "total": total,
-        "limit": limit,
-        "offset": offset,
-        "filtros_aplicados": {
+    return PaginatedRegras(
+        total=total,
+        limit=limit,
+        offset=offset,
+        filtros_aplicados={
             "nivel": nivel,
             "codigo_erro": codigo_erro,
             "campo": campo
         },
-        "items": [RegraResponse.model_validate(r) for r in regras]
-    }
+        items=[RegraResponse.model_validate(r) for r in regras]
+    )
 
 
 @router.get("/{numero}", response_model=RegraResponse)
@@ -69,7 +69,7 @@ def get_rule_detail(numero: int, db: Session = Depends(get_db)):
     return RegraResponse.model_validate(regra)
 
 
-@router.get("/filtro/por-nivel/{nivel}", response_model=dict)
+@router.get("/filtro/por-nivel/{nivel}", response_model=FilteredRulesResponse)
 def get_rules_by_level(
     nivel: int = Path(..., ge=1, le=3),
     limit: int = Query(20, gt=0, le=100),
@@ -84,16 +84,16 @@ def get_rules_by_level(
     
     regras = query.offset(offset).limit(limit).all()
     
-    return {
-        "nivel": nivel,
-        "total": total,
-        "limit": limit,
-        "offset": offset,
-        "items": [RegraResponse.model_validate(r) for r in regras]
-    }
+    return FilteredRulesResponse(
+        nivel=nivel,
+        total=total,
+        limit=limit,
+        offset=offset,
+        items=[RegraResponse.model_validate(r) for r in regras]
+    )
 
 
-@router.get("/filtro/por-erro/{codigo_erro}", response_model=dict)
+@router.get("/filtro/por-erro/{codigo_erro}", response_model=FilteredRulesByErrorResponse)
 def get_rules_by_error_code(
     codigo_erro: str,
     db: Session = Depends(get_db)
@@ -110,8 +110,10 @@ def get_rules_by_error_code(
     if not regras:
         raise HTTPException(status_code=404, detail=f"Nenhuma regra encontrada para erro {codigo_erro}")
     
-    return {
-        "codigo_erro": codigo_erro,
-        "total": len(regras),
-        "items": [RegraResponse.model_validate(r) for r in regras]
-    }
+    return FilteredRulesByErrorResponse(
+        codigo_erro=codigo_erro,
+        total=len(regras),
+        limit=len(regras),
+        offset=0,
+        items=[RegraResponse.model_validate(r) for r in regras]
+    )
